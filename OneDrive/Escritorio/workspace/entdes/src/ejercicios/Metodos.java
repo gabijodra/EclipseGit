@@ -8,6 +8,7 @@ public class Metodos {
 		
 		//devuelveStringsContatenados()
 		// devuelveCaracterdependiendoDelNumero()
+		//devuelveEnteroCorraspondiente()
 		
 		
 	}
@@ -33,6 +34,15 @@ static char devuelveCaracterdependiendoDelNumero(int numero) {
 	char caracter=(char) numero;
 	return caracter;
 
+}
+
+
+
+static int devuelveEnteroCorraspondiente(char caracter) {
+	
+	int numero=(int) caracter;
+	return numero;
+	
 }
 
 	}
