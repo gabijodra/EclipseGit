@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Metodos {
 
 	public static void main(String[] args) {
+		
+		//devuelveStringsContatenados()
+		// devuelveCaracterdependiendoDelNumero()
+		
+		
 	}
 		static void devuelveStringsContatenados() {
 			
@@ -21,6 +26,14 @@ public class Metodos {
 			System.out.println("Su texto es: " + entrada1 + entrada2);
 			
 		}
+		
+		
+static char devuelveCaracterdependiendoDelNumero(int numero) {
+	
+	char caracter=(char) numero;
+	return caracter;
+
+}
 
 	}
 
